@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6K7JZnIhPHCiORQ3B+KnroQjUst6cGncCMxoFtDFmR8pzDsZiTBgtPltX3cRtu43ZSGN21XIdEa3azYyylGavw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leila.noval\\Desktop\\WinterSem\\ITEC280\\Final.ver2\\TCPClient\\TCPServer\\TCPServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leila.noval\\.nuget\\packages\\supersimpletcp\\3.0.10\\supersimpletcp.3.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

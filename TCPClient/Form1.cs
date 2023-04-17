@@ -23,9 +23,11 @@ namespace TCPClient
 
         private void Events_DataReceived(object? sender, DataReceivedEventArgs e)
         {
+            string message = Encoding.UTF8.GetString(e.Data).TrimEnd('\0');
+          
             this.Invoke((MethodInvoker)delegate
             {
-                lstMessages.Items.Add($"{e.IpPort}: {Encoding.UTF8.GetString(e.Data)}{Environment.NewLine}");
+                lstMessages.Items.Add(message);
             });
         }
 

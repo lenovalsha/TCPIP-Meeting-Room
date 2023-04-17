@@ -35,6 +35,7 @@
             this.txtServer = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lstClientIp = new System.Windows.Forms.ListBox();
+            this.btnKick = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstMessages
@@ -99,11 +100,22 @@
             this.lstClientIp.Size = new System.Drawing.Size(204, 259);
             this.lstClientIp.TabIndex = 12;
             // 
+            // btnKick
+            // 
+            this.btnKick.Location = new System.Drawing.Point(653, 330);
+            this.btnKick.Name = "btnKick";
+            this.btnKick.Size = new System.Drawing.Size(75, 23);
+            this.btnKick.TabIndex = 13;
+            this.btnKick.Text = "Kick";
+            this.btnKick.UseVisualStyleBackColor = true;
+            this.btnKick.Click += new System.EventHandler(this.btnKick_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnKick);
             this.Controls.Add(this.lstClientIp);
             this.Controls.Add(this.lstMessages);
             this.Controls.Add(this.btnSend);
@@ -128,5 +140,6 @@
         private TextBox txtServer;
         private Label label1;
         private ListBox lstClientIp;
+        private Button btnKick;
     }
 }

@@ -34,6 +34,9 @@
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
             this.lstMessages = new System.Windows.Forms.ListBox();
+            this.lstClients = new System.Windows.Forms.ListBox();
+            this.btnKick = new System.Windows.Forms.Button();
+            this.btnShareScreen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -89,11 +92,43 @@
             this.lstMessages.Size = new System.Drawing.Size(415, 259);
             this.lstMessages.TabIndex = 5;
             // 
+            // lstClients
+            // 
+            this.lstClients.FormattingEnabled = true;
+            this.lstClients.ItemHeight = 15;
+            this.lstClients.Location = new System.Drawing.Point(486, 62);
+            this.lstClients.Name = "lstClients";
+            this.lstClients.Size = new System.Drawing.Size(168, 259);
+            this.lstClients.TabIndex = 6;
+            // 
+            // btnKick
+            // 
+            this.btnKick.Location = new System.Drawing.Point(579, 352);
+            this.btnKick.Name = "btnKick";
+            this.btnKick.Size = new System.Drawing.Size(75, 23);
+            this.btnKick.TabIndex = 7;
+            this.btnKick.Text = "kick";
+            this.btnKick.UseVisualStyleBackColor = true;
+            this.btnKick.Click += new System.EventHandler(this.btnKick_Click);
+            // 
+            // btnShareScreen
+            // 
+            this.btnShareScreen.Location = new System.Drawing.Point(405, 381);
+            this.btnShareScreen.Name = "btnShareScreen";
+            this.btnShareScreen.Size = new System.Drawing.Size(75, 23);
+            this.btnShareScreen.TabIndex = 8;
+            this.btnShareScreen.Text = "Share Screen";
+            this.btnShareScreen.UseVisualStyleBackColor = true;
+            this.btnShareScreen.Click += new System.EventHandler(this.btnShareScreen_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(853, 540);
+            this.Controls.Add(this.btnShareScreen);
+            this.Controls.Add(this.btnKick);
+            this.Controls.Add(this.lstClients);
             this.Controls.Add(this.lstMessages);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtMessage);
@@ -116,5 +151,8 @@
         private TextBox txtMessage;
         private Button btnSend;
         private ListBox lstMessages;
+        private ListBox lstClients;
+        private Button btnKick;
+        private Button btnShareScreen;
     }
 }

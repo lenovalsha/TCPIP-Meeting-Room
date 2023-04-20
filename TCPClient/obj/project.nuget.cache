@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "h2SAXDCOTf0bLE5LrVk8EV+Ha5nGcBVYRznW8DhUMcG7TfZeEyrN9mc8YPO5c6yldqJ9S2t1wGVKFq0JKMGhvw==",
+  "dgSpecHash": "FWqQFElusSHNyRb1NdIkNML/TjnuY+Ni+W2dvQ/ajdE0aYwO5a+OvnLgbEHEVOSGFQ3fLOkuueoRIfUCPXkTEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\leila.noval\\Desktop\\WinterSem\\ITEC280\\Final.ver2\\TCPClient\\TCPClient\\TCPClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\leila.noval\\.nuget\\packages\\supersimpletcp\\3.0.10\\supersimpletcp.3.0.10.nupkg.sha512"
+    "C:\\Users\\leila.noval\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\supersimpletcp\\3.0.10\\supersimpletcp.3.0.10.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\leila.noval\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
